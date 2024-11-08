@@ -42,6 +42,7 @@
     "matter-composeddevice": "matter-run packages/examples/src/device-composed-onoff/ComposedDeviceNode.ts",
     "matter-multidevice": "matter-run packages/examples/src/device-multipleonoff/MultiDeviceNode.ts",
     "matter-controller": "matter-run packages/examples/src/controller/ControllerNode.ts",
+    "matter-controller-arduino": "matter-run packages/examples/src/controller-arduino/ControllerNodeArduino.ts",
     "shell": "matter-run packages/nodejs-shell/src/app.ts",
     "relock": "node -e \"fs.rmSync('package-lock.json', { force: true }); fs.rmSync('node_modules', { recursive: true, force: true });\" && npm install"
   },
