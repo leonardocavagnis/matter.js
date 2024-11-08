@@ -56,5 +56,5 @@ The following parameters are available and used to initially commission a device
     * --ble-hci-id: Optionally, HCI ID to use (Linux only, default 0)
     * --ble-wifi-ssid: SSID/Name of the Wifi network to connect to - The device will scan especially for this network and commissioning will fail if not found
     * --ble-wifi-credentials: Credentials for the Wifi network to connect to
-    * --ble-thread-networkname: Name of the Thread network to connect to - The device will verify that a thread network with this name is reachable by the device and commissioning will fail if not found
+    * --ble-thread-networkname: Name of the Thread network to connect to - The device will verify that a thread network with this name is reachable by the device and commissioning will fail if not found (of using OTBR use ot-ctl dataset active to get the value)
     * --ble-thread-operationaldataset: Operational dataset as hex string to use for commissioning (of using OTBR use `ot-ctl dataset active -x` to get the value)
